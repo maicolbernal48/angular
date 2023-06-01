@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+#primera{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    text-align: right;
+}
+
+
+#paralelogramo {
+    width: 550px; 
+        height: 40px; 
+        display: flex;
+        -webkit-transform: skew(30deg); 
+        -moz-transform: skew(10deg); 
+        -o-transform: skew(10deg); 
+     
+         background: rgb(213, 247, 23);
+        
+}
+
+#paralelogramo2 {
+    position:absolute;
+    margin: 30px;
+    width: 550px; 
+    height: 40px;
+    padding: 10px;
+    transform: skew(30deg) translateY(-65px); 
+     
+    background: rgb(213, 247, 23);
+}
+    
+#paralelogramo3 {
+    
+    margin: -28px;
+    width: 200px; 
+    height: 40px; 
+        
+    -webkit-transform: skew(30deg); 
+    -moz-transform: skew(10deg); 
+    -o-transform: skew(10deg); 
+     
+    background: rgb(213, 247, 23);
+}
+#multimedia{
+    margin-left: 350px;
+    
+}
+#imagen-gallery{
+    display: flex;
+    overflow-x: scroll;
+}
+
+#imagen-gallery .gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px ;
+
+}
+#nosotros{
+    margin-left: 350px;
+    
+}
+#insta{
+    width: 30px;
+    height: 30px;
+}
